@@ -1,0 +1,56 @@
+/* 333 */
+
+.container {
+    border: 5px solid black;
+    width: 50%;
+    padding: 2px;
+    color: white;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .header {
+    background-color: orchid;
+    text-align: center;
+    line-height: 80px;
+}
+
+.container .aside {
+    width: 40%;
+    height: 100px;
+    background-color: rgb(21, 160, 224);
+    text-align: center;
+    line-height: 100px;
+    float: left;
+}
+
+.container .main {
+    width: 60%;
+    height: 300px;
+    background-color: rgb(189, 87, 40);
+    text-align: center;
+    line-height: 300px;
+    float: right;
+}
+
+.container .nav {
+    width: 40%;
+    height: 200px;
+    background-color: rgb(173, 42, 53);
+    text-align: center;
+    line-height: 200px;
+    float: left;
+}
+
+.container .footer {
+    height: 30px;
+    background-color: rgb(48, 45, 48);
+    text-align: center;
+    line-height: 30px;
+}
+
+/* .content::after {
+    content: '';
+    display: block;
+    clear: both;
+} */
