@@ -24,7 +24,7 @@ CSS Grid Terminology
 //CSS Grid Properties CONTAINER		clolumn (ke samping)
 • grid-template-rows
 • grid-template-columns
-	//untuk apa explicit dan implicit karna data itu dinames (tidak diketahui pasti)
+	//untuk apa explicit dan implicit? karna data itu dinames (tidak diketahui pasti)
 	explicit grid	//ketika kita menentukan secara jelas memberi nilai pada grid	//garis lurus
 	implicit grid	//ketika grid menentukan secara otomatis sisanya	//garis putus-putus
 • grid-auto-rows	//digunakan saat data implicit ke bawah(mengatur yang row yang implicit)
@@ -40,9 +40,14 @@ CSS Grid Terminology
 • grid-template-areas	//Mendefinisikan grid template menggunakan nama dari area yang ditulis pada property grid-area pada item
 • grid-template		//Shorthand untuk mendefinisikan grid-template-rows, grid-template-columns, dan grid-template-areas dalam satu deklarasi.
 
+
+
+
+
+
 • grid-row-gap		//row-gap	//penulisan baru	//same
 • grid-column-gap	//column-gap	//penulisan baru	//Mendefinisikan ukuran grid-line / jarak antara baris atau kolom
-• grid-gap		//gap	//penulisan baru	//Shorthand untuk mendefinisikan column-gap, row-gap dalam satu deklarasi.
+• grid-gap		//gap	//penulisan baru	//Shorthand untuk mendefinisikan row-gap, column-gap dalam satu deklarasi.
 • grid			//Shorthand untuk mendefinisikan properti-properti berikut dalam satu deklarasi : 
 				grid-template-rows, grid-template-columns,
 				grid-template-areas, grid-auto-rows, 
