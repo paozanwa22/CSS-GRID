@@ -1,0 +1,15 @@
+//Special Function & Keywords
+repeat() //mengulang //grid-template-columns: repeat(4, 1fr) repeat(5, 1.5fr); //4 cell, ukuran 1fr dan 5 cell setelahnya, ukuran 1.5fr
+
+min-content & max-content //grid-template-columns: 1fr min-content 1fr; //ukuran sesuai kontent
+
+minmax() //minmax(120px, 1fr) //nilai awal saat layarnya kecil, saat layarnya membesar
+
+auto-fill -> garis Explicit-nya memberi satu ruang pada akrir item
+auto-fit -> garis Explicit-nya pas pada akhir item
+
+//
+grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+
+//
+grid-gap: 5px; //jarak antara cell
