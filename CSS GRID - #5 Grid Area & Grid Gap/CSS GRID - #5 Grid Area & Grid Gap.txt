@@ -1,0 +1,18 @@
+//CSS Grid Properties
+//CONTAINER
+grid-template-areas: '';
+
+grid-template //shorthand dari grid-template-areas, columns, rows
+//cara penulisan
+row columns	
+	50px 100px / 1fr 2fr 3fr;
+areas row areas columns		
+	'header header header' 50px
+	'footer footer footer' 100px / 1fr 2fr 3fr;
+
+//jarak antar cell
+grid-column-grap 	atau 	column-gap
+grid-row-gap 		atau 	row-gap
+grid-gap 		atau 	gap
+
+grid -> short hand all

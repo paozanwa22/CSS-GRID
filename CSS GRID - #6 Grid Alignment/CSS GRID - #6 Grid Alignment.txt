@@ -1,0 +1,11 @@
+//CSS Grid Properties
+//CONTAINER
+Grid alimen //memposisikan elemen
+
+justify-items
+align-items
+place-items
+
+justify-content (horizontal/ke samping)
+align-content	(vertikal/ke bawah)
+place-content
