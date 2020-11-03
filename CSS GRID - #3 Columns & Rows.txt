@@ -1,0 +1,28 @@
+//CSS Grid Properties
+grid-template-columns
+grid-template-rows
+
+Explicit -> ketika jelas mendefinisikan nilai pada grid
+Implicit Grid -> ketika grid-nya menentukan secara otomatis sisa-nya
+
+grid-auto-flow -> untuk mengatur penempatan item pada track nya
+
+//untuk mengatur implicit grid
+grid-auto-columns
+grid-auto-rows
+
+//satuan
+fr (fraction)
+
+//
+.item:nth-child(even) { //pada bilangan genap
+	background-color: rgb(138, 209, 254);
+}
+
+
+
+
+
+
+
+
